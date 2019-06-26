@@ -1,0 +1,117 @@
+body {
+  background-image: url("images/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #6C819F;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 23px;
+  color: #000000;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#logo {
+  width: 130px;
+  box-shadow: 2px 2px 4px #6C819F;
+}
+
+h1, h2, h3 {
+  color: #6C819F;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  font-style: oblique;
+  line-height: 1.8;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #018786;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.social {
+  color: #6C819F;
+  font-size: 18px
+}
+
+.container {
+  width: 800px;
+  /* This sets the width */
+  margin: 0 auto;
+  /* This automatically sets left/right margins */
+}
+
+.card {
+  padding: 20px;
+  border: 4px solid #6C819F;
+  border-radius: 1%;
+  background-color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6C819F;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #018786
+}
+
+.button:active {
+  background-color: #018786;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
